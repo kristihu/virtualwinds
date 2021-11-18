@@ -1,35 +1,47 @@
-{"list": [
+{
+  "tasks": [
     {
-      "name": "Move the pipes",
-      "id": 1,
-      "category": "Loading place",
-      "start": "01.11.2021",
-      "end": "01.12.2022",
-      "link": "https://mekro.esitevr.com/mekroswiecie/?fov=150.0&vlon=5.99&vlat=-0.24&image=4334158958398892"
-      
-    
-      
-    }, 
+      "taskName": "Replacing old pipes",
+      "desc": "The task is to replace old pipes at a factory with new pipes",
+      "startDate": "2021-11-10",
+      "endDate": "2021-11-10",
+      "link": "https://mekro.esitevr.com/mekroswiecie/?fov=150.0&vlon=5.99&vlat=-0.24&image=4334158958398892",
+      "id": 1
+    },
     {
-      "name": "Fix the pipes",
-      "id": 2,
-      "category": "Loadihng place",
-      "link": "https://mekro.esitevr.com/mekroswiecie/?fov=150.0&vlon=5.99&vlat=-0.24&image=4334158958398892"
-  
-    },{
-      "name": "y the pipes",
-      "id": 3,
-      "category": "Loadgasing place",
-      "link": "https://mekro.esitevr.com/mekroswiecie/?fov=150.0&vlon=5.99&vlat=-0.24&image=4334158958398892"
-    },{
-      "name": "b ventilation",
-      "id": 4,
-      "category": "asd place",
-      "link": "https://mekro.esitevr.com/mekroswiecie/?fov=150.0&vlon=5.99&vlat=-0.24&image=4334158958398892"
-    },{
-      "name": "remove" ,
-      "id": 5,
-      "category": "Loading place",
-      "link": "https://mekro.esitevr.com/mekroswiecie/?fov=150.0&vlon=5.99&vlat=-0.24&image=4334158958398892"
+      "taskName": "Replacing ventilation machine",
+      "desc": "Check for leaks",
+      "startDate": "2021-11-10",
+      "endDate": "2021-11-10",
+      "link": "https://mekro.esitevr.com/mekroswiecie/?fov=150.0&vlon=5.99&vlat=-0.24&image=4334158958398892",
+      "id": 2
+    },
+    {
+      "taskName": "Installation of gas cylinder machine",
+      "desc": "Check seals for leaks",
+      "startDate": "2021-11-10",
+      "endDate": "2021-11-26",
+      "link": "https://mekro.esitevr.com/mekroswiecie/?fov=150.0&vlon=5.99&vlat=-0.24&image=4334158958398892",
+      "id": 3
+    },
+    {
+      "taskName": "iuy",
+      "desc": "iuy",
+      "startDate": "2021-11-11T13:10:59.172Z",
+      "endDate": "2021-11-11T13:10:59.172Z",
+      "link": "yui",
+      "comments": [],
+      "id": 4
+    },
+    {
+      "taskName": "gfdgdfgdf",
+      "desc": "gdfgfdgdfg",
+      "startDate": "2021-11-11T13:27:05.000Z",
+      "endDate": "2021-11-19T13:27:05.000Z",
+      "link": "https://mekro.esitevr.com/mekroswiecie/?fov=150.0&vlon=5.99&vlat=-0.24&image=4334158958398892",
+      "comments": [],
+      "id": 5
     }
-  ]}
+  ],
+  "comments": []
+}
