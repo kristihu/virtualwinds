@@ -28,6 +28,22 @@
   color: #61dafb;
 }
 
+.task-card {
+  width: 18rem;
+  height: 30rem;
+  margin-bottom: 2rem;
+}
+
+.add-comment-btn {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

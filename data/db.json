@@ -2,7 +2,7 @@
   "tasks": [
     {
       "taskName": "Replacing old pipes",
-      "desc": "The task is to replace old pipes at a factory with new pipes",
+      "desc": "The task is to replace old pipes at a factory with new pipes.",
       "startDate": "2021-11-10",
       "endDate": "2021-11-10",
       "link": "https://mekro.esitevr.com/mekroswiecie/?fov=150.0&vlon=5.99&vlat=-0.24&image=4334158958398892",
@@ -11,7 +11,7 @@
     },
     {
       "taskName": "Replacing ventilation machine",
-      "desc": "Check for leaks",
+      "desc": "The task is to remove old machine and install new one.",
       "startDate": "2021-11-10",
       "endDate": "2021-11-10",
       "link": "https://mekro.esitevr.com/mekroswiecie/?fov=150.0&vlon=5.99&vlat=-0.24&image=4334158958398892",
@@ -22,7 +22,7 @@
     },
     {
       "taskName": "Installation of gas cylinder machine",
-      "desc": "Check seals for leaks",
+      "desc": "The task is to install new gas cylinder macine in shed number 5.",
       "startDate": "2021-11-10",
       "endDate": "2021-11-26",
       "link": "https://mekro.esitevr.com/mekroswiecie/?fov=150.0&vlon=5.99&vlat=-0.24&image=4334158958398892",
@@ -30,8 +30,8 @@
       "id": 3
     },
     {
-      "taskName": "iuy",
-      "desc": "iuy",
+      "taskName": "Removal of scrap from site area",
+      "desc": "The task includes removal of scrap near factory gate.",
       "startDate": "2021-11-11T13:10:59.172Z",
       "endDate": "2021-11-11T13:10:59.172Z",
       "link": "yui",
@@ -39,8 +39,8 @@
       "id": 4
     },
     {
-      "taskName": "gfdgdfgdf",
-      "desc": "gdfgfdgdfg",
+      "taskName": "Maintenace of factory gate",
+      "desc": "The task includes removal of rust from the gate.",
       "startDate": "2021-11-11T13:27:05.000Z",
       "endDate": "2021-11-19T13:27:05.000Z",
       "link": "https://mekro.esitevr.com/mekroswiecie/?fov=150.0&vlon=5.99&vlat=-0.24&image=4334158958398892",

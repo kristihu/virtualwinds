@@ -30,31 +30,40 @@ const Modaali = ({ show, handleClose, selectedValue }) => {
           <Modal.Title>{selectedValue.taskName}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          Description: <p>{selectedValue.desc}</p>
-          Startdate: <DatePicker value={selectedValue.startDate} />
-          EndDate:
+          <b>Description:</b> <p>{selectedValue.desc}</p>
+          <p><b>Startdate:</b> <DatePicker value={selectedValue.startDate}/></p>
+          <p><b>EndDate:</b>
           <DatePicker
             onChange={(date) => setStartDate(date)}
             value={selectedValue.endDate}
-          />
-        </Modal.Body>
-        <Modal.Footer>
-          <a href={selectedValue.link}>Link to eSite</a>
-
-          <form onSubmit={handleComments}>
+          /></p>
+          <p><b>Link to esite:</b> <a href={selectedValue.link}>To esite</a></p>
+          <div style={{textAlign:"left"}}>
+            <form style={{margin:"0em"}} onSubmit={handleComments}>
             <label>
-              <input
+              <textarea
                 type="text"
                 name="name"
+                cols="45"
+                rows="3"
                 onChange={(e) => setComment(e.target.value)}
               />
             </label>
-            <input type="submit" value="add comment" />
+            <br />
+            <input className="add-comment-btn" type="submit" value="Add comment" />
           </form>
+          </div>
+        </Modal.Body>
+        <Modal.Footer>
 
-          <Button variant="primary" onClick={handleClose}>
+
+
+          <div style={{margin:"auto", marginTop:"1rem"}} >
+            <Button style={{margin:"0.25em"}} variant="secondary">Discard Changes</Button>
+            <Button style={{margin:"0.25em"}} variant="dark" onClick={handleClose}>
             Save Changes
           </Button>
+          </div>
           <div className="commentSection">
             <ul>
               {selectedValue.comments.map((comment) => (

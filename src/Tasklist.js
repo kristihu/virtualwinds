@@ -26,16 +26,18 @@ const Tasklist = ({ tasks }) => {
           {tasks.map((task) => (
             <Col sm key={task.id}>
               <div>
-                <Card style={{ width: "18rem", height: "12rem" }}>
+                <Card className="task-card">
+                <Card.Img variant="top" src="http://via.placeholder.com/286x180" />
                   <Card.Body>
-                    <Card.Title>{task.taskName}</Card.Title>
-                    {/* <Card.Text>{task.desc}</Card.Text> */}
+                    <Card.Title style={{height:"3rem", textAlign:"left"}}>{task.taskName}</Card.Title>
+                    <Card.Text style={{textAlign:"left"}}>Description: <span style={{color:"gray", display:"block"}}>{task.desc}</span></Card.Text>
                   </Card.Body>
                   <Card.Footer>
                     {/* <Button onClick={() => handleDelete(task.id)}>Delete</Button>{" "} */}
                     <Button
                       onClick={() => handleShow(task.id)}
-                      variant="primary"
+                      variant="dark"
+                      style={{width:"100%"}}
                     >
                       Edit
                     </Button>
