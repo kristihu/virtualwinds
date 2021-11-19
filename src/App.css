@@ -28,6 +28,22 @@
   color: #61dafb;
 }
 
+.task-card {
+  width: 18rem;
+  height: 30rem;
+  margin-bottom: 2rem;
+}
+
+.add-comment-btn {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +51,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.commentSection {
+  background-color: #717f9b;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  padding: 15px;
+  border-bottom: 1px solid;
+}
+
+.yeptest:link,
+.yeptest:visited {
+  background-color: #c7c5c5;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.yeptest:hover,
+.yeptest:active {
+  background-color: red;
 }
