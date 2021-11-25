@@ -27,7 +27,7 @@ const Tasklist = ({ tasks }) => {
             <Col sm key={task.id}>
               <div>
                 <Card className="task-card">
-                <Card.Img variant="top" src="http://via.placeholder.com/286x180" />
+                <Card.Img style={{height:'180px', width:'286px'}} variant="top" src={task.imageURL}/>
                   <Card.Body>
                     <Card.Title style={{height:"3rem", textAlign:"left"}}>{task.taskName}</Card.Title>
                     <Card.Text style={{textAlign:"left"}}>Description: <span style={{color:"gray", display:"block"}}>{task.desc}</span></Card.Text>

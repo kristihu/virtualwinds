@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import { Modal, Button, Accordion } from "react-bootstrap";
+import { Modal, Button, Accordion, Image } from "react-bootstrap";
 import DatePicker from "react-datepicker";
 
 const Modaali = ({ show, handleClose, selectedValue }) => {
@@ -30,6 +30,7 @@ const Modaali = ({ show, handleClose, selectedValue }) => {
           <Modal.Title>{selectedValue.taskName}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
+          <Image style={{display:"block", margin:"auto", marginBottom:"1.6em"}} src={selectedValue.imageURL} fluid />  
           <b>Description:</b> <p>{selectedValue.desc}</p>
           <p>
             <b>Startdate:</b> <DatePicker value={selectedValue.startDate} />

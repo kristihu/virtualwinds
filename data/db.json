@@ -5,9 +5,10 @@
       "desc": "The task is to replace old pipes at a factory with new pipes.",
       "startDate": "2021-11-10",
       "endDate": "2021-11-10",
-      "link": "https://mekro.esitevr.com/mekroswiecie/?fov=150.0&vlon=5.99&vlat=-0.24&image=4334158958398892",
+      "link": "https://mekro.esitevr.com/mekroswiecie/?poi=3195274613626225&fov=150.0",
       "comments": ["asd", "test5"],
-      "id": 1
+      "id": 1,
+      "imageURL": "https://i.imgur.com/Gq5lTv1.png?1"
     },
     {
       "taskName": "Replacing ventilation machine",
@@ -16,7 +17,8 @@
       "endDate": "2021-11-30",
       "link": "https://mekro.esitevr.com/mekroswiecie/?fov=150.0&vlon=5.99&vlat=-0.24&image=4334158958398892",
       "comments": ["test"],
-      "id": 2
+      "id": 2,
+      "imageURL": "https://i.imgur.com/tULNP4g.png?1"
     },
     {
       "taskName": "Installation of gas cylinder machine",
@@ -25,7 +27,8 @@
       "endDate": "2021-11-26",
       "link": "https://mekro.esitevr.com/mekroswiecie/?poi=2339546957892530&fov=102.1",
       "comments": [],
-      "id": 3
+      "id": 3,
+      "imageURL": "https://i.imgur.com/SfsClJ3.png?1"
     },
     {
       "taskName": "Removal of scrap from site area",
@@ -34,7 +37,8 @@
       "endDate": "2021-12-30",
       "link": "yui",
       "comments": [],
-      "id": 4
+      "id": 4,
+      "imageURL": "https://i.imgur.com/IcZbdJt.png?1"
     },
     {
       "taskName": "Maintenace of factory gate",
@@ -43,7 +47,8 @@
       "endDate": "2021-11-19T13:27:05.000Z",
       "link": "https://mekro.esitevr.com/mekroswiecie/?fov=150.0&vlon=5.99&vlat=-0.24&image=4334158958398892",
       "comments": ["test2", "test3", "asd"],
-      "id": 5
+      "id": 5,
+      "imageURL": "https://i.imgur.com/YHVZyqA.png?1"
     }
   ],
   "comments": []
